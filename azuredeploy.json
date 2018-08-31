@@ -132,7 +132,7 @@
               "name": "headnode",
               "targetInstanceCount": "2",
               "hardwareProfile": {
-                "vmSize": "Standard_D12_v2"
+                "vmSize": "Standard_D11_v2"
               },
               "osProfile": {
                 "linuxOperatingSystemProfile": {
@@ -147,9 +147,9 @@
             },
             {
               "name": "workernode",
-              "targetInstanceCount": 4,
+              "targetInstanceCount": 3,
               "hardwareProfile": {
-                "vmSize": "Standard_D13_v2"
+                "vmSize": "Standard_D12_v2"
               },
               "osProfile": {
                 "linuxOperatingSystemProfile": {
@@ -206,7 +206,7 @@
               "name": "headnode",
               "targetInstanceCount": "2",
               "hardwareProfile": {
-                "vmSize": "Standard_D3_v2"
+                "vmSize": "Standard_D1_v2"
               },
               "osProfile": {
                 "linuxOperatingSystemProfile": {
@@ -221,9 +221,9 @@
             },
             {
               "name": "workernode",
-              "targetInstanceCount": 4,
+              "targetInstanceCount": 3,
               "hardwareProfile": {
-                "vmSize": "Standard_D3_v2"
+                "vmSize": "Standard_D2_v2"
               },
               "dataDisksGroups": [
                 {
