@@ -204,7 +204,7 @@
           "roles": [
             {
               "name": "headnode",
-              "targetInstanceCount": "2",
+              "targetInstanceCount": "1",
               "hardwareProfile": {
                 "vmSize": "Standard_D1_v2"
               },
@@ -223,7 +223,7 @@
               "name": "workernode",
               "targetInstanceCount": 3,
               "hardwareProfile": {
-                "vmSize": "Standard_D2_v2"
+                "vmSize": "Standard_D1_v2"
               },
               "dataDisksGroups": [
                 {
